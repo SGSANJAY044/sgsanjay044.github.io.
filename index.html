@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>IDOT.Inc </title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Questrial">
+         <link rel="stylesheet" media="screen and (max-device-width: 900px)" href="smallscreen.css">
+        <link rel="stylesheet" href="index.scss">
+        <link rel="stylesheet" href="index.css">
+        <link rel="icon" type="image/x-icon" href="/logo.svg">
+        <script src="https://kit.fontawesome.com/788214b7f0.js" crossorigin="anonymous"></script>
+          <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+          <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    </head>
+    <body onload="OnLoad()">
+        <div class="dd">
+            <img src="/Air1.png" alt="" class="yc1 px" speed="5">
+            <img src="Air5.png" alt="" class="yc2 px"  speed="3">
+            <!-- <img src="Air3.png" alt="" class="yc px"  speed="-2">!!!! -->
+            <!-- <img src="Air4.png" alt="" class="ycl px"  speed="9"> !!!-->
+             <!-- <img src="Cone_Hex0001.png" alt="" class="rc px"  speed="9">!!! -->
+              <img src="Air3.png" alt="" class="bsp px"  speed="9">
+            <img src="Air6.png" alt="" class="bs px"  speed="7">
+            <img src="Air4.png" alt="" class="br px"  speed="2">
+            <img src="Air2.png" alt="" class="rd px"  speed="-3">
+        </div>
+        <div class="tra" id="tra">
+            <video src="intro.mp4"  autoplay loop muted></video>
+        </div>
+        <div class="Home-bg">
+             <section class="home-hero">
+          <div class="hero-bg">
+            <div class="hero-pattern-bg"><img class="hero-pattern-img__default" src="/hero-pattern-bg.png"><img class="hero-pattern-img__large" src="./assets/images/hero-pattern-bg-lg.png"></div>
+          </div>
+          <div class="hero-character">
+            <div class="hero-guy-1"><img class="hero-guy-1__default" src="/hero-guy-1.png"><img class="hero-guy-1__large" src="./assets/images/hero-guy-1-lg.png"></div>
+          </div>
+        </section>
+        </div>
+        <!-- <img src="kec.png" alt="" class="Home-bg" id="Home">!!! -->
+        <div class="outnav" id="stnav" >
+            <div class="nav">
+                <img src="logo.png" alt="">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220" class="navbg">
+  <path fill="#ffffff" fill-opacity="1" d="M0,160L80,149.3C160,139,320,117,480,117.3C640,117,800,139,960,133.3C1120,128,1280,96,1360,80L1440,64L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
+</svg>!!! -->
+                <div class="navitems cl-effect-3">
+                    <div onclick="Hscroll()">Home</div>
+                    <div onclick="Ascroll()">About</div>
+                    <div onclick="Wscroll()">Servies</div>
+                    <div onclick="Tscroll()">Tecnologies</div>
+                    <div onclick="Pscroll()">Portfolio</div>
+                    <div onclick="Cscroll()">Contact</div>
+                    <div style="overflow-y:hidden;" class="t3"><svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="40" onclick="hmc()">
+  <path
+        class="line top"
+        d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+  <path
+        class="line middle"
+        d="m 20,50 h 40 " id="middle"/>
+  <path
+        class="line bottom"
+        d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+</svg></div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="sidediv-bl" id="sidebg"></div>
+            <div class="sidebg"></div>
+            <div class="sidediv" id="sidenav">
+                    <div class="logo-sd"><img src="logo.svg" alt=""><i class="fa fa-times fa-2xl"aria-hidden="true" onclick="hmk()"></i></div>
+                    <div class="content-sd">Extremity direction existence as dashwoods do up. Securing marianne led welcomed offended but offering six raptures.</div>
+                    <div class="img-sd"> <video src="Idot Concept Intro.mp4"  autoplay loop muted></video></div>
+                    <div class="contact-sd">
+                        <div class="C-sd-head">ADDRESS</div>
+                        <div class="C-sd-content">Technology Business Incubator, Kongu Engineering College, Perundurai, Erode - 638 060</div>
+                    </div>
+                    <div class="follow-sd">
+                        <div class="F-sd-head">FOLLOW US</div>
+                        <div class="F-sd-content">
+                            <div>
+                                <i class="fa fa-whatsapp fa-2xl" aria-hidden="true"></i>
+                            </div>
+                            <div>
+                                <i class="fa fa-facebook fa-2xl" aria-hidden="true"></i>
+                            </div>
+                            <div>
+                                <i class="fa fa-instagram fa-2xl" aria-hidden="true"></i>
+                            </div>
+                            <div>
+                                <i class="fa fa-twitter fa-2xl" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cc-sd"></div>
+            </div>
+        </div>
+        <div class="hero-main">
+            <div class="hero-home">
+                <div class="H-head" data-aos="zoom-in" >It's time to Make a change</div>
+                <div class="H-sub" data-aos="zoom-in">Let's help discover the best for you all over the world.</div>
+                <div class="H-button" id="Button" data-aos="zoom-in" onclick="Ascroll()">Get Started</div>
+            </div>
+        </div>
+        <!-- <div class="coverup"></div> -->
+        <img src="/output-onlinegiftools.gif" alt="" id="GIF"class="cp-img" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+        <div class="out-about" id="About">
+            <img src="/about-img.png" alt="" data-aos="fade-left" data-aos-anchor-placement="center-bottom">
+            <div class="About"    data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                <div class="H-about">
+                    <div class="A-main">Something </div>
+                    <div class="A-title">About Us</div>
+                    <!-- <div class="A-img"></div> -->
+                </div>
+                <div class="A-br"></div>
+                <div class="A-sbr"></div>
+                <div class="C-about">
+                    <div class="A-content">IdOt is a pack of creative thinkers, designers and techies who are constantly delivering exceptional products for our customers.</div>
+                    <div class="A-content">Idot adopts and works with you to craft products rich with personality and detail according to the customer’s wish..</div>
+                    <div class="A-content">With a total combination of polished methodology and shocking inventiveness abilities, our master planners can build up a splendid profile for your business in the online world.</div>
+                    <div class="A-content">We deliver you the best Websites, Mobile Applications, Graphic designs, Animations and Social Media Marketing strategies.</div>
+                </div>
+            </div>
+        </div>
+        <div class="CTA">
+            <div class="H-cta" data-aos="fade-down" data-aos-duration="1000">Call To Action</div>
+            <div class="C-cta" data-aos="fade-up"   >IdOt provides the world with tremendous outcome in the sphere of Web development, Android and iOS Applications, Graphic designs, Animations and Social Media Marketing Strategies.</div>
+            <button class="B-cta " data-aos="fade-down">Call To Action</button>
+            <div class="ctablack"></div>
+        </div>
+        <div class="WWD" id="WWD">
+            <div class="W-head" data-aos="zoom-in-up">What We Do</div>
+            <div class="W-content">
+                <div class="W-C-row">
+                    <div class="W-container" data-aos="fade-left">
+                        <div class="W-img" ><img src="/web.gif" alt=""></div>
+                        <div class="W-title">Web Development</div>
+                        <div class="W-info">We offer highly flexible and customized web designs at best prices.</div>
+                    </div>
+                    <div class="W-container" data-aos="fade-down">
+                        <div class="W-img"><img src="/APP.gif" alt=""></div>
+                        <div class="W-title">Android & iOS Applications</div>
+                        <div class="W-info">An application is not all about Technology. Our products are coined with the motto “Ease of use”. </div>
+                    </div>
+                    <div class="W-container" data-aos="fade-right">
+                        <div class="W-img"><img src="/SOM.gif" alt=""></div>
+                        <div class="W-title">Social Media Marketing</div>
+                        <div class="W-info">We create our clients’ pages filled with positive vibrant emotions which attracts the users towards you.</div>
+                    </div>
+                </div>
+                <div class="W-C-row" id="ww2" style="width:60%;">
+                    <div class="W-container" data-aos="fade-left">
+                        <div class="W-img"><img src="/GD.gif" alt=""></div>
+                        <div class="W-title">Graphic designs</div>
+                        <div class="W-info">We drive you across the murky waters of creativity. We provide our works filled with tender and dashing looks.</div>
+                    </div>
+                    <div class="W-container" data-aos="fade-right">
+                        <div class="W-img"><img src="/animation.gif" alt="" style="height: 200px;"></div>
+                        <div class="W-title">Animations</div>
+                        <div class="W-info">Our animation is an art of movements towards which we are drawn. </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="test-container" >
+            <div class="T-test"  data-aos="zoom-in-up">Testimonials</div>
+            <div class="main-test">
+               <div class="horizontal-slider">
+  <ul class="h-items">
+    <li> 
+        <div class="testout">
+                     <div style="position:relative; overflow: hidden;"><div class="testin" data-aos="fade"
+     data-aos-duration="500">
+                        <div class="H-test">Walter White</div>
+                          <div><div class="testimg"></div></div>
+                        <div class="C-test">
+                            We guarantee that our customers are constantly happy with our work..
+                        </div>
+                    </div></div>
+                      <div style="position:relative; overflow: hidden;"><div class="testin"  data-aos="fade" 
+     data-aos-duration="500">
+                        <div class="H-test">Walter White</div>
+                          <div><div class="testimg"></div></div>
+                        <div class="C-test">
+                            We guarantee that our customers are constantly happy with our work..
+                        </div>
+                    </div></div>
+                </div>
+    </li>
+    <li> 
+        <div class="testout" >
+                     <div style="position:relative; overflow: hidden;"><div class="testin" data-aos="fade"
+     data-aos-duration="500">
+                        <div class="H-test">Walter White</div>
+                          <div><div class="testimg"></div></div>
+                        <div class="C-test">
+                            We guarantee that our customers are constantly happy with our work..
+                        </div>
+                    </div></div>
+                      <div style="position:relative; overflow: hidden;"><div class="testin" data-aos="fade"
+     data-aos-duration="500">
+                        <div class="H-test">Walter White</div>
+                          <div><div class="testimg"></div></div>
+                        <div class="C-test">
+                        We guarantee that our customers are constantly happy with our work..
+                        </div>
+                    </div></div>
+                </div>
+    </li>
+    <li>
+         <div class="testout">
+                    <div style="position:relative; overflow: hidden;"><div class="testin" data-aos="fade"
+     data-aos-duration="500">
+         <div class="H-test">Walter White</div>
+         <div><div class="testimg"></div></div>
+         <div class="C-test">
+                                We guarantee that our customers are constantly happy with our work..
+                            </div>
+                    </div></div>
+                      <div style="position:relative; overflow: hidden;"><div class="testin" data-aos="fade"
+     data-aos-duration="500">
+                        <div class="H-test">Walter White</div>
+                          <div><div class="testimg"></div></div>
+                        <div class="C-test">
+                            We guarantee that our customers are constantly happy with our work..
+                        </div>
+                    </div></div>
+                </div>
+    </li>
+  </ul>
+  <div class="h-controlls">
+    <span class="prev">
+    <i class="fa fa-chevron-left" aria-hidden="true"></i>
+    </span>
+    <span class="next">
+    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+    </span>
+  </div>
+</div> 
+            </div>
+        </div>
+        <div class="tecnologies" id="Tech">
+            <div class="H-tech"  data-aos="zoom-in-up">Technologies we use</div>
+            <div class="C-tech">
+                        <div class="E-tech" data-aos="flip-left" >
+                            <div class="tech-lf" ><img src="java.png" alt=""></div>
+                            <div class="tech-rt" ><img src="javascript.png" alt=""></div>
+                        </div>
+                         <div class="E-tech" data-aos="flip-left">
+                            <div class="tech-lf"><img src="mongo.png" alt=""></div>
+                            <div class="tech-rt"><img src="mysql.png" alt=""></div>
+                        </div>
+                         <div class="E-tech" data-aos="flip-left">
+                            <div class="tech-lf"><img src="/reactjs.png" alt=""></div>
+                            <div class="tech-rt"><img src="angularjs.png" alt=""></div>
+                        </div>
+                         <div class="E-tech"  data-aos="flip-left">
+                            <div class="tech-lf"><img src="html5.png" alt=""></div>
+                            <div class="tech-rt"><img src="css3.png" alt=""></div>
+                        </div>
+                         <div class="E-tech"  data-aos="flip-left">
+                            <div class="tech-lf"><img src="1.png" alt=""></div>
+                            <div class="tech-rt"><img src="2.png" alt=""></div>
+                        </div>
+                         <div class="E-tech"  data-aos="flip-left">
+                            <div class="tech-lf"><img src="3.png" alt=""></div>
+                            <div class="tech-rt"><img src="4.png" alt=""></div>
+                        </div>
+                        <div class="E-tech"  data-aos="flip-left">
+                           <div class="tech-lf"><img src="/angularjs.png" alt=""></div>
+                           <div class="tech-rt"><img src="/css3.png" alt=""></div>
+                        </div>
+                        <div class="E-tech"  data-aos="flip-left">
+                           <div class="tech-lf"><img src="/html5.png" alt=""></div>
+                           <div class="tech-rt"><img src="/nodejs.png" alt=""></div>
+                        </div>
+                        <div class="E-tech"  data-aos="flip-left">
+                           <div class="tech-lf"><img src="reactjs.png" alt=""></div>
+                           <div class="tech-rt"><img src="3.png" alt=""></div>
+                       </div>
+                       <div class="E-tech"  data-aos="flip-left">
+                           <div class="tech-lf"><img src="/javascript.png" alt=""></div>
+                           <div class="tech-rt"><img src="/mongo.png" alt=""></div>
+                        </div>
+                        <div class="E-tech"  data-aos="flip-left">
+                           <div class="tech-lf"><img src="5.png" alt=""></div>
+                           <div class="tech-rt"><img src="7.png" alt=""></div>
+                        </div>
+                        <div class="E-tech"  data-aos="flip-left">
+                           <div class="tech-lf"><img src="/tick.png" alt=""></div>
+                           <div class="tech-rt"><img src="6.png" alt=""></div>
+                        </div>
+            </div>
+        </div>
+        <div class="portfolio" id="Portfolio">
+            <div class="portra" id="pro"></div>
+             <div class="P-head"  data-aos="zoom-in-up">Portfolio</div>
+             <div class="P-row" id="row1">
+                <div class="P-box" style="background: url(/wetransfer_1_2-jpg_2022-10-12_1215/1_2.jpg);" data-aos="zoom-out" data-aos-duration="1200">
+                </div>
+                  <div class="P-box" style="background: url(/wetransfer_1_2-jpg_2022-10-12_1215/2_1.jpg);" data-aos="zoom-out" data-aos-duration="1200">
+                </div>
+                  <div class="P-box" style="background: url(/wetransfer_1_2-jpg_2022-10-12_1215/royalcakes.jpg);" data-aos="zoom-out" data-aos-duration="1200">
+                </div>
+                  <div class="P-box" style="background: url(/wetransfer_1_2-jpg_2022-10-12_1215/ga.jpg);" data-aos="zoom-out" data-aos-duration="1200">
+                </div>
+                 <div class="P-box" style="background: url(/wetransfer_1_2-jpg_2022-10-12_1215/aayuthaeluthu.jpg);" data-aos="zoom-out" data-aos-duration="1200">
+                </div>
+                 <div class="P-box" style="background: url(/wetransfer_1_2-jpg_2022-10-12_1215/cer1.jpg);" data-aos="zoom-out" data-aos-duration="1200">
+                </div>
+                 <div class="P-box" style="background: url(/wetransfer_1_2-jpg_2022-10-12_1215/chillbyte.jpg);" data-aos="zoom-out" data-aos-duration="1200">
+                </div>
+             </div>
+               <div class="P-row" style="margin-top:5vh;" id="row2">
+                <div class="P-box" style="background: url(/wetransfer_1_2-jpg_2022-10-12_1215/ck_3.jpg);" data-aos="zoom-out" data-aos-duration="1200">
+                </div>
+                  <div class="P-box" style="background: url(/wetransfer_1_2-jpg_2022-10-12_1215/FNH2.jpg);" data-aos="zoom-out" data-aos-duration="1200">
+                </div>
+                <div class="P-box" style="background: url(/wetransfer_1_2-jpg_2022-10-12_1215/2_4.jpg);" data-aos="zoom-out" data-aos-duration="1200">
+                </div>
+                  <div class="P-box" style="background: url(/wetransfer_1_2-jpg_2022-10-12_1215/chillbyte.jpg);" data-aos="zoom-out" data-aos-duration="1200">
+                </div>
+                 <div class="P-box" style="background: url(/wetransfer_1_2-jpg_2022-10-12_1215/rwp.jpg);" data-aos="zoom-out" data-aos-duration="1200">
+                </div>
+                 <div class="P-box" style="background: url(/wetransfer_1_2-jpg_2022-10-12_1215/2_3.jpg);" data-aos="zoom-out" data-aos-duration="1200">
+                </div>
+                 <div class="P-box" style="background: url(/wetransfer_1_2-jpg_2022-10-12_1215/srt.jpg);" data-aos="zoom-out" data-aos-duration="1200">
+                </div>
+             </div>
+             <div class="more"><a href="/portfolio.html">More</a></div>
+           </div> 
+           <div class="footer" >
+               <div class="F-content">
+                <div class="FF-LS">
+                    <img src="logo.png" alt="" class="FF-logo">
+                    <div class="F-S"> <div>
+                                <i class="fa fa-whatsapp fa-2xl" aria-hidden="true"></i>
+                            </div>
+                            <div>
+                                <i class="fa fa-facebook fa-2xl" aria-hidden="true"></i>
+                            </div>
+                            <div>
+                                <i class="fa fa-instagram fa-2xl" aria-hidden="true"></i>
+                            </div>
+                            <div>
+                                <i class="fa fa-twitter fa-2xl" aria-hidden="true"></i>
+                            </div></div>
+                </div>
+                <div class="FF-C">
+                    <div class="FF-C-H">Company</div>
+                    <div>About</div>
+                    <div>Careers</div>
+                    <div>Training</div>
+                </div>
+                 <div class="FF-C">
+                    <div class="FF-C-H">Our Services</div>
+                    <div>Designing</div>
+                    <div>Development</div>
+                    <div>Security</div>
+                </div>
+                 <div class="FF-C">
+                    <div class="FF-C-H">Quick Links</div>
+                    <div>Home</div>
+                    <div>Portfolio</div>
+                    <div>Products</div>
+                </div>
+                </div>
+                <hr style="width: 85%;margin-left: 5%;">
+                <div class="CPR">
+                    <div>Copyright © 2022 IDOT .Inc.</div>
+                    <div> All rights reserved</div>
+                </div>
+                </div>
+            <!-- <img src="/elephant.png" alt="" class="F-ele"> -->
+            <!-- <img src="footer-bg.png" alt="" class="F-img"> -->
+        </div>
+        <!-- <div class="footspace" id="footer"> -->
+            <!-- <div class="H-foot">CONTACT</div>
+                <div class="F-logo">
+                    <div><img src="/Logo-graphics.png" alt=""></div>
+                    <div><img src="/idotstudioz.png" alt=""></div>
+                </div>
+                <img src="logo.png" alt="" class="f-logo">
+                <img src="fullpic.png" alt="" class="foot-E">
+                <img src="foot.svg" alt="" class="foot-bg1">
+                <img src="" alt="">
+                <div class="F-contact">
+                    <div class="input">
+                        <input type="text" placeholder="Name" size="800">
+                        <input type="text" placeholder="Email">
+                    </div>
+                    <textarea cols="50" rows="6" placeholder="Type Something"></textarea>
+                </div>
+                <img src="foot-bg.svg" alt="" class="foot-bg2"> -->
+            <!-- </div> -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="index.js"></script>
+        <script>
+            AOS.init();
+            </script>
+    </body>
+</html>

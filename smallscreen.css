@@ -1,0 +1,294 @@
+body{
+    /* overflow: hidden !important; */
+    background: white;
+}
+
+.coverup{
+    display: block !important;
+    top:31vh;
+    height: 25vh;
+    width: 100%;
+    background: white;
+    position: absolute;
+}
+.tecnologies{
+    height: 100vh !important;
+    padding: 0vh !important;
+}
+.C-tech{
+    grid-template-columns: auto auto !important;
+}
+.cp-img{
+    display: block !important;
+    height: 45vh;
+    /* width: 100%; */
+    position: absolute;
+    top:35vh;
+}
+ .yc1{
+    height: 7vh !important;
+    top:10% !important;
+    right: 5% !important; 
+ }
+ .yc2{
+    height: 7vh !important;
+     top:8% !important;
+    right: 30% !important;
+ }
+ .bsp{
+     height: 6vh !important;
+      top:20% !important;
+    right: 5% !important; 
+    left: 6% !important;
+ }
+ .bs{
+     height: 8vh !important;
+     left: 20% !important;
+ }
+ .br{
+     height: 9vh !important;
+      top:25% !important;
+    right: 25% !important; 
+ }
+ .rd{
+     height: 10vh !important;
+      top:15% !important;
+    right: 5% !important; 
+ }
+.nav>img{
+    height: 80% !important;
+}
+.nav{
+    height: 5vh !important;
+}
+.outnav{
+    height: 5vh !important;
+}
+.navitems{
+    display: none !important;
+}
+.hero-main{
+    height: 50vh !important;
+}
+.H-head{
+    font-size: 3vh !important;
+    height: 3vh !important;
+}
+.Home-bg{
+    height: 40vh !important;
+    z-index: 3;
+}
+.out-about{
+    height: 100vh !important;
+}
+.out-about>img{
+    display: none !important;
+}
+.About{
+    flex-direction: column;
+    justify-content: center;
+    height: 70vh !important;
+    z-index: 2;
+}
+.A-main{
+    font-size: 5vh !important;
+}
+.A-title{
+    font-size: 5vh !important;
+}
+.A-br{
+    display: none;
+}
+.A-sbr{
+     width: 80%;
+    height: 10px;
+    background: #F49414; 
+    margin-bottom: 5vh;
+}
+.C-about{
+    height: 120% !important;
+    padding-bottom: 10%;
+}
+.H-about{
+    height: 30% !important;
+}
+.C-cta{
+    width: 90% !important;
+    height: 25vh !important;
+}
+.CTA{
+    height: 60vh !important;
+}
+.ctablack{
+    height: 60vh !important;
+}
+.WWD{
+    height: 170vh !important;
+}
+.W-content{
+    height: 150vh !important;
+}
+.W-head{
+    font-size: 7vh !important;
+}
+.W-C-row{
+    flex-direction: column;
+    height: 90vh !important;
+}
+.W-title{
+    font-size: 4vh !important;
+    text-align: center !important;
+    overflow: hidden !important;
+    height: 4vh !important;
+}
+.W-info{
+    font-size: 30px !important;
+}
+.W-container{
+    height: 30vh !important;
+    width: 100% !important;
+}
+.W-img>img{
+    height: 20vh !important;
+}
+.T-test{
+    font-size: 4vh !important;
+}
+.testin{
+    height: 13vh !important;
+    width: 80% !important;
+}
+.testimg{
+    right: 10% !important;
+    height: 100px !important;
+    width: 100px !important;
+}
+.testout{
+    margin-left: 15% !important;
+    height: 30vh !important;
+    flex-direction: column;
+    justify-content: center !important;
+}
+.horizontal-slider{
+    height: 30vh !important;
+}
+.main-test{
+    padding: 0 !important;
+    height: 40vh !important;
+}
+.H-test{
+    font-size: 3vh !important;
+}
+.C-test{
+    font-size: 2vh !important;
+}
+#two{
+    top:100px !important;
+    left: 350px !important;
+}
+#ww2{
+    height: 60vh !important;
+}
+.C-tech{
+    width: 90% !important;
+    height: 90vh !important;
+}
+.E-tech{
+    margin: 20px;
+}
+.R-tech{
+    height: 70% !important;
+}
+.H-tech{
+    font-size: 4vh !important;
+    height: 5vh !important;
+}
+.P-box{
+    height: 15vh !important;
+    width: 15vh !important;
+}
+.portfolio{
+    height: 80vh !important;
+}
+.portra{
+    height: 80vh !important;
+}
+.P-row{
+    width: 200vh !important;
+}
+.F-head{
+    font-size: 5vh !important;
+    margin-top: 30px;
+    width: 100% !important;
+}
+.fly{
+    height: 20vh !important;
+    top: 30vh !important;
+    z-index: 11;
+}
+.F-content{
+    margin-left: 0;
+}
+.F-ad{
+    font-size: 2vh !important;
+    width: 70% !important;
+}
+.F-ele{
+    height: 25vh !important;    
+}
+.F-img{
+    /* width: 100% !important; */
+    margin: 0 !important;
+    left: -20vh !important;
+    height: 30vh !important;
+}
+.F-call{
+    height: 8vh !important;
+    margin-top: 5vh !important;
+}
+.F-call>button{
+    height: 5vh !important;
+    width: 20vh !important;
+    font-size: 2vh !important;
+    margin: 20px;
+}
+.F-logo{
+    bottom: 3vh !important;
+    left: -22vh !important;
+    flex-direction: column;
+}
+.F-logo>div{
+    height: 5vh !important;
+    width: 10vh !important;
+}
+.footspace{
+    height: 60vh !important;
+}
+.P-row{
+    height: 20vh!important;
+}
+.more{
+    left: 36% !important;
+    height: 5vh !important;
+    width: 15vh !important;
+}
+.P-head{
+    font-size: 8vh !important; 
+}
+.container{
+    grid-template-columns: auto auto !important;
+    height: 150vh !important;
+}
+.nav-item>a{
+font-size: 1.2vh !important;
+}
+.back{
+    height: 10vh !important;
+    width: 10vh !important;
+}
+.A-content{
+    font-size: 1.2vh !important;
+}
+.footer{
+    height: 30vh !important;
+}
